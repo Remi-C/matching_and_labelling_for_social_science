@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Matching and Labelling for Social Science #
 
-You can use the [editor on GitHub](https://github.com/Remi-C/matching_and_labelling_for_social_science/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## A very short summary ##
+this project ...
+illustration
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Using this project ##
+### Requirements ###
+  python + ...
+  Json files
+  ...
+  
+### How to run things ###
+  regular user : go to URL
+  power user : launch web app ...
 
-### Markdown
+## How to customize the app to your need ##
+### use your own data ###
+### change styling ###
+### Do more with your data ###
+### Custom display ###
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Dev doc ##
 
-```markdown
-Syntax highlighted code block
+### Input / Ouput###
+#### Allowed format ####
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Remi-C/matching_and_labelling_for_social_science/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### How does it work ###
+#### Data input
+#### Data output
+#### Processing data
+#### displaying data
+#### Interaction
+#### Submit mechanism
