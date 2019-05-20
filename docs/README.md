@@ -9,9 +9,11 @@ illustration
 
 ## Using this project ##
 ### Requirements ###
-  python + ...
-  Json files
-  ...
+  The application requires Python 3 and a number of packages, which can be found in dependencies.txt. 
+  The backbone of the front-end is Plotly's Dash, a Python framework for web applications.
+  
+  For researchers, the application requires either json files or a connected database with specifications for the input data. Further details are provided below.
+
   
 ### How to run the application ###
   regular user : go to URL
