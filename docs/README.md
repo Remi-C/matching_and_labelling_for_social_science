@@ -1,7 +1,7 @@
 # Collaborative Matching and Labelling for Social Science #
 
 ## Brief summary ##
-  This project is an open source tool for collaborative editing of data. It is intended to assist researchers in disambiguating their data. Thus, it gives them the opportunity to increase the accuracy of and find new connections in the data. 
+  This project is an open-source tool for collaborative editing of data. It is intended to assist researchers in disambiguating their data. Thus, it gives them the opportunity to increase the accuracy of and find new connections in the data. 
   
   The program is especially useful for text classification. Researchers will be able to provide text files as input, as well as an intermediate file that includes contextual information (predictions, images, etc.). From there, researchers, along with their teams and colleagues, will be able to use the collaborative match system as leverage for more better informed research.
 
@@ -37,8 +37,8 @@ illustration
 
 The second diagram, "Project Architecture", provides a more detailed illustration of how the program will be organized.
 
-The program begins with the Lobby database, which contains data on lobby firms, companies, government entities, and lobbyists. Additionally, the database includes tools and methods to clean and prepare the data for the API. The API will serve as a medium between the Python code and the database.
-It will first interact with the Python code to know which data is needed, then retrieve the correctly formatted data, for example the predictions, from the database.
+The program begins with the database or input files, which contain data specific to the researcher. Additionally, the database may include tools and methods to clean and prepare the data for the API. The API serves as a medium between the Python code and the database.
+It first interacts with the Python code to know which data is needed, then retrieves the correctly formatted data, for example the predictions, from the database.
 The Python code performs three tasks.
 
 - First, in the "Input/Output" section, it sends requests to and receives data from the API in the appropriate format. 
@@ -51,12 +51,20 @@ The final part of the architecture is the UI, which serves to
 
 The contextual information will include what information we know about the name.
 
-For example, if the program displays the lobbyist name *"John Doee"*, which was misspelled from *"John Doe"*, the program might note that both names are connected to the same lobby firms.
+For example, if the program displays the name *"John Doee"*, which was misspelled from *"John Doe"*, the program might note that both names are connected to the same ambiguous entity.
 This information will be displayed in text, graphs, etc. This section also receives user input, which is then processed back into the Python code and is how the program makes updates to names.
 
 #### Data input
+
+There are currently two ways to input data: as local JSON files or through a database. The specific format includes four main sections: ambiguous entity, candidates, user, and gui. The exact required fields are placed in reference.json, as discussed below. The number of buttons a user can click is given in "max_selections". This is useful for differentiating between the single- and multiple-choice interfaces. 
+
+###### Reference File
+
+We have also provided a baseline json file, reference.json, which all data inputs are compared to when they are read in. It includes the basic information required for the application, and thus allows for additional and varied types of information. 
+
+
 #### Data output
 #### Processing data
-#### displaying data
+#### Displaying data
 #### Interaction
 #### Submit mechanism
