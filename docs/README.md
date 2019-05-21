@@ -21,8 +21,10 @@ illustration
   Locally : users can launch web app locally with one, or a combination, of the command line and a configuration file. They can then open the application in a browser with the specified port.
 
 ## How to customize the app to your need ##
-### use your own data ###
-### change styling ###
+### Use your own data ###
+  The application allows for the use of a variety of types of data. As intended, the program's structure of data input/output has been generalized to give researcher's the ability to tailor the application to their specific needs. 
+
+### Change styling ###
 ### Do more with your data ###
 ### Custom display ###
 
@@ -35,7 +37,7 @@ illustration
 
 [[/images/collabm_architecture.png|Diagram illustrating architecture of project]]
 
-The second diagram, "Project Architecture", provides a more detailed illustration of how the program will be organized.
+This diagram provides a detailed illustration of the application's architecture.
 
 The program begins with the database or input files, which contain data specific to the researcher. Additionally, the database may include tools and methods to clean and prepare the data for the API. The API serves as a medium between the Python code and the database.
 It first interacts with the Python code to know which data is needed, then retrieves the correctly formatted data, for example the predictions, from the database.
@@ -60,10 +62,12 @@ There are currently two ways to input data: as local JSON files or through a dat
 
 ###### Reference File
 
-We have also provided a baseline json file, reference.json, which all data inputs are compared to when they are read in. It includes the basic information required for the application, and thus allows for additional and varied types of information. 
-
+We have also provided a baseline json file, reference.json, which all data inputs are compared to when they are read in. It includes the basic information required for the application, and thus allows for additional and varied types of information.  
 
 #### Data output
+
+The application allows for researchers to output user selection data to their database or to local files.
+
 #### Processing data
 #### Displaying data
 #### Interaction
