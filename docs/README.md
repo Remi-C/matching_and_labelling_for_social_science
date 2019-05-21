@@ -33,8 +33,7 @@ illustration
 
 ### Overall Structure and Project Flow ###
 
-
-[[./docs/images/collabm_architecture.png|Diagram illustrating architecture of project]]
+[[/images/collabm_architecture.png|Diagram illustrating architecture of project]]
 
 The second diagram, "Project Architecture", provides a more detailed illustration of how the program will be organized.
 
