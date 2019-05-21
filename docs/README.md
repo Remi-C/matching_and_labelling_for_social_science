@@ -17,6 +17,7 @@ illustration
   
 ### How to run the application ###
   Server : go to URL
+  
   Locally : users can launch web app locally with one, or a combination, of the command line and a configuration file. They can then open the application in a browser with the specified port.
 
 ## How to customize the app to your need ##
