@@ -35,7 +35,7 @@ illustration
 
 ### Overall Structure and Project Flow ###
 
-[[/images/collabm_architecture.png|Diagram illustrating architecture of project]]
+Diagram illustrating architecture of project
 
 This diagram provides a detailed illustration of the application's architecture.
 
